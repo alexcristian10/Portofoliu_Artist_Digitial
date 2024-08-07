@@ -1,10 +1,10 @@
+// src/app.module.ts
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { AppController } from './app.controller'; // Importă AppController
 
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [AppController], // Folosește AppController aici
+  providers: [],
 })
 export class AppModule {}
